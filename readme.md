@@ -2,7 +2,7 @@
 
 ## Description
 
-Varr is an extremely basic variable replacement command line Node.js module. It's intended for use with CSS files, turning this source CSS code:
+Varr is an extremely basic variable replacement command line Node.js tool. It's intended for use with CSS files, turning this source CSS code:
 
 ```
 $brand_colour: #777;
@@ -30,7 +30,7 @@ body {
 _Caveats_
 
 - Varr is ridiculously basic in it's implementation & functionality. Coming in at ~100 lines of JavaScript, this is **not** meant to be any sort of Sass alternative, let alone a competitor.
-- This tiny module was born out of redesigning my personal site and just wanting a quick way to add variables to my single CSS file.
+- This tiny tool was born out of redesigning my personal site and just wanting a quick way to add variables to my single CSS file.
 - Tl;dr - If you never re-invent a wheel, you'll never get the fun and learning that comes from inventing a wheel.
 
 ## Installation
@@ -74,6 +74,6 @@ Lastly, Varr does support file watching, so this command:
 
 `varr -i style.css -o production/live.css watch`
 
-Will run the module each time you hit save on "style.css". 
+Will run the tool each time you hit save on "style.css". 
 
 As per usual, errors are output to the command line, but should you hit save prematurely and it errors, just fix up your file and re-save it. The program *should not* break.
