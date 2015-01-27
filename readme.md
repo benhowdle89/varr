@@ -31,7 +31,9 @@ _Caveats_
 
 - Varr is ridiculously basic in it's implementation & functionality. Coming in at ~100 lines of JavaScript, this is **not** meant to be any sort of Sass alternative, let alone a competitor.
 - This tiny tool was born out of redesigning my personal site and just wanting a quick way to add variables to my single CSS file.
-- Tl;dr - If you never re-invent a wheel, you'll never get the fun and learning that comes from inventing a wheel.
+- This tool currently only works with one file. Multiple files will be added in the near future, I just can't say when.
+- Tl;dr - Re-inventing the wheel, albeit a small wheel, can be a bunch of fun. 
+
 
 ## Installation
 
@@ -77,3 +79,7 @@ Lastly, Varr does support file watching, so this command:
 Will run the tool each time you hit save on "style.css". 
 
 As per usual, errors are output to the command line, but should you hit save prematurely and it errors, just fix up your file and re-save it. The program *should not* break.
+
+# Contributing
+
+I'll be using this tool for my own small projects, but I figured some people might benefit from something lightweight as well, so it became a public tool published on npm. I'd be really delighted if people did want to improve it, fix some stuff, etc...but we really don't need to re-create Sass.
