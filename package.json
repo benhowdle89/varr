@@ -1,6 +1,6 @@
 {
 	"name": "varr",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Simple variable replacement for CSS files",
 	"main": "index.js",
 	"scripts": {
