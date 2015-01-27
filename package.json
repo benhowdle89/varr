@@ -1,19 +1,23 @@
 {
-  "name": "varr",
-  "version": "1.0.0",
-  "description": "Simple variable replacement for CSS files",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ben Howdle <hello@benhowdle.im> (http://benhowdle.im/)",
-  "license": "ISC",
-  "bin": {
-    "varr": "index.js"
-  },
-  "dependencies": {
-    "commander": "^2.6.0",
-    "mkdirp": "^0.5.0",
-    "watch": "^0.13.0"
-  }
+	"name": "varr",
+	"version": "1.0.0",
+	"description": "Simple variable replacement for CSS files",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Ben Howdle <hello@benhowdle.im> (http://benhowdle.im/)",
+	"license": "ISC",
+	"bin": {
+		"varr": "index.js"
+	},
+	"dependencies": {
+		"commander": "^2.6.0",
+		"mkdirp": "^0.5.0",
+		"watch": "^0.13.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/benhowdle89/varr.git"
+	}
 }
