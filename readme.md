@@ -37,6 +37,10 @@ _Caveats_
 
 ## Installation
 
+Available on [npm](https://www.npmjs.com/package/varr).
+
+For command line installation:
+
 `npm install varr -g`
 
 # Setup
