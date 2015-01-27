@@ -2,7 +2,7 @@
 
 ## Description
 
-Varr is an extremely basic variable replacement command line Node.js tool. It's intended for use with CSS files, turning this source CSS code:
+Varr is a basic variable replacement preprocessor. It's intended for use with CSS files, turning this source CSS code:
 
 ```
 $brand_colour: #777;
